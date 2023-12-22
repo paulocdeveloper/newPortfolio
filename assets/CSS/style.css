@@ -110,9 +110,25 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    height: 100vh;
+
+    background-image: url('https://wallpapers.com/images/hd/professional-web-developer-working-on-a-code-setup-j8ljvi05wloqs3ii.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    color: #fff;
 }
 
 .container__banner > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,4 +142,19 @@ header {
 .nameBanner {
     font-size: 50px;
     margin: 10px 0;
+}
+
+.buttonDowload {
+    background-color: #5bc1ac;
+    border-radius: .5rem;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.buttonDowload > a {
+    color: #fff;
+
+    text-decoration: none;
+    font-weight: 500;
 }
