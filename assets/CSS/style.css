@@ -39,6 +39,10 @@ header {
     font-weight: 400;
 }
 
+.nav-link:hover {
+    color: #0187a7;
+}
+
 .login-button button {
     border: none;
     background-color: #0187a7;
@@ -113,7 +117,8 @@ header {
 
     height: 100vh;
 
-    background-image: url('https://wallpapers.com/images/hd/professional-web-developer-working-on-a-code-setup-j8ljvi05wloqs3ii.jpg');
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(34,34,34,1) 52%, rgba(0,0,0,1) 100%);
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
@@ -137,6 +142,10 @@ header {
 
 .nameList {
     font-size: 25px;
+}
+
+#space-bottom {
+    margin-bottom: 30px;
 }
 
 .nameBanner {
